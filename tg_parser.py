@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-SECRET_TOKEN = os.getenv('SECRET_TOKEN')
+SECRET_TOKEN = os.getenv('SECRET_TOKEN', default='5820046202:AAGloLnkoTlcZphFebSKyREfa076h-x-0KM')
 
 
 '''Создание или обновление баззы данных'''

@@ -11,11 +11,23 @@
 ## Технологии  
 
 * Python
-* python-telegram-bot
+* python-telegram-bot  
 
 ## Использование  
 
-Название бота @excel_parsing_bot
+Название бота @excel_parsing_bot  
+
+1. Клонируйте репозиторий 
+`https://github.com/sheremet-o/telegram_bot_parser`  
+
+2. Создайте и активируйте виртуальное окружение:  
+`python -m venv .env`  
+`source .env/Scripts/activate`  
+
+3. Установите зависимости:  
+`pip install -r requirements.txt`  
+
+4. Запустите файл tg_parser.py  
 
 ## Проект выполнила
 
